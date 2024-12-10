@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "baby_ads",
+  "info": {
+    "singularName": "baby-ad",
+    "pluralName": "baby-ads",
+    "displayName": "Baby_Ad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ad_Title": {
+      "type": "string"
+    },
+    "Image_Ad": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

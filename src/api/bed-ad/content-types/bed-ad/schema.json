@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bed_ads",
+  "info": {
+    "singularName": "bed-ad",
+    "pluralName": "bed-ads",
+    "displayName": "Bed_Ad",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ad_Title": {
+      "type": "string"
+    },
+    "Image_Ad": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

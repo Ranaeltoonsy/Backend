@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cats_sliders",
+  "info": {
+    "singularName": "cats-slider",
+    "pluralName": "cats-sliders",
+    "displayName": "CatsSlider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_name": {
+      "type": "string"
+    },
+    "product_review": {
+      "type": "string"
+    },
+    "product_price": {
+      "type": "decimal"
+    },
+    "pre_price": {
+      "type": "decimal"
+    },
+    "Discount": {
+      "type": "string"
+    },
+    "Demand": {
+      "type": "string"
+    },
+    "product_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

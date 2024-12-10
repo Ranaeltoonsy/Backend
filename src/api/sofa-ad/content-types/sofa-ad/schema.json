@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sofa_ads",
+  "info": {
+    "singularName": "sofa-ad",
+    "pluralName": "sofa-ads",
+    "displayName": "Sofa_Ad",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ad_Title": {
+      "type": "string"
+    },
+    "Image_Ad": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

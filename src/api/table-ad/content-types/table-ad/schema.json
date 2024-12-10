@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table_ads",
+  "info": {
+    "singularName": "table-ad",
+    "pluralName": "table-ads",
+    "displayName": "Table_Ad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ad_Title": {
+      "type": "string"
+    },
+    "Image_Ad": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

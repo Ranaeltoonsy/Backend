@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "baby_kids",
+  "info": {
+    "singularName": "baby-kid",
+    "pluralName": "baby-kids",
+    "displayName": "Baby_Kids"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_name": {
+      "type": "string"
+    },
+    "product_review": {
+      "type": "string"
+    },
+    "product_price": {
+      "type": "decimal"
+    },
+    "pre_price": {
+      "type": "decimal"
+    },
+    "Demand": {
+      "type": "string"
+    },
+    "Discount": {
+      "type": "string"
+    },
+    "product_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "room_ads",
+  "info": {
+    "singularName": "room-ad",
+    "pluralName": "room-ads",
+    "displayName": "Room_Ad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ad_Title": {
+      "type": "string"
+    },
+    "Image_Ad": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

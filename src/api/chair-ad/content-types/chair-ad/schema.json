@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chair_ads",
+  "info": {
+    "singularName": "chair-ad",
+    "pluralName": "chair-ads",
+    "displayName": "Chair_Ad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ad_Title": {
+      "type": "string"
+    },
+    "Image_Ad": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

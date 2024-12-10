@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Discount_Code": {
+      "type": "string"
+    },
+    "Extra": {
+      "type": "string"
+    },
+    "Capped": {
+      "type": "string"
+    },
+    "Offer_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Discount_Num": {
+      "type": "string"
+    }
+  }
+}
